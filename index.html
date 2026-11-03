@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5ed">
+  <meta name="description" content="A little garden made just for Ricarda.">
+  <title>Ricarda's Little Garden ♡</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="page">
+    <header class="header">
+      <span class="brand">✿ THE LITTLE GARDEN</span>
+      <span class="edition">A SPECIAL LITTLE PLACE</span>
+    </header>
+
+    <section class="intro">
+      <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+      <h1>Ricarda's <em>Little Garden</em></h1>
+      <p class="subtitle">
+        A small corner of the internet, made just for you.
+      </p>
+    </section>
+
+    <section class="garden-card">
+      <div class="sun"></div>
+      <div class="cloud cloud-one"></div>
+      <div class="cloud cloud-two"></div>
+
+      <div class="garden-label">OUR LITTLE BEGINNING</div>
+
+      <div class="flower-scene" id="flowerScene">
+        <div class="sparkle sparkle-one">✧</div>
+        <div class="sparkle sparkle-two">✦</div>
+        <div class="sparkle sparkle-three">✧</div>
+
+        <svg class="flower" viewBox="0 0 240 330"
+             xmlns="http://www.w3.org/2000/svg">
+          <g class="petals">
+            <ellipse cx="120" cy="65" rx="19" ry="39"/>
+            <ellipse cx="120" cy="65" rx="19" ry="39" transform="rotate(45 120 100)"/>
+            <ellipse cx="120" cy="65" rx="19" ry="39" transform="rotate(90 120 100)"/>
+            <ellipse cx="120" cy="65" rx="19" ry="39" transform="rotate(135 120 100)"/>
+            <ellipse cx="120" cy="65" rx="19" ry="39" transform="rotate(180 120 100)"/>
+            <ellipse cx="120" cy="65" rx="19" ry="39" transform="rotate(225 120 100)"/>
+            <ellipse cx="120" cy="65" rx="19" ry="39" transform="rotate(270 120 100)"/>
+            <ellipse cx="120" cy="65" rx="19" ry="39" transform="rotate(315 120 100)"/>
+          </g>
+
+          <circle class="flower-center" cx="120" cy="100" r="17"/>
+
+          <path class="stem" d="M120 117 C117 165 128 220 120 300"
+                fill="none" stroke="#71896d" stroke-width="5"
+                stroke-linecap="round"/>
+
+          <path class="leaf leaf-left"
+                d="M119 220 C70 178 43 204 119 238"
+                fill="#91a989"/>
+
+          <path class="leaf leaf-right"
+                d="M122 255 C163 210 193 235 122 273"
+                fill="#829b7c"/>
+        </svg>
+      </div>
+
+      <div class="ground">
+        <div class="hill hill-back"></div>
+        <div class="hill hill-front"></div>
+      </div>
+
+      <div class="garden-caption">
+        <span>01</span>
+        <span>One flower. One beginning.</span>
+        <span>♡</span>
+      </div>
+    </section>
+
+    <div class="discover">
+      <button id="discoverButton">
+        Discover the first bloom <span>↗</span>
+      </button>
+      <p>There's a little message waiting for you</p>
+    </div>
+
+    <section class="letter" id="letter">
+      <div class="letter-flower">✿</div>
+      <p class="letter-label">A NOTE FOR YOU</p>
+      <h2>Dear Ricarda,</h2>
+
+      <p class="message">
+        Every garden starts with one little flower.
+        <br><br>
+        This one is for our first date. I hope it grows
+        into a beautiful garden, one flower and one
+        lovely memory at a time.
+        <br><br>
+        Let's see what blooms. ♡
+      </p>
+
+      <div class="signature">With a little thought,</div>
+      <div class="signature-name">Your garden friend ♡</div>
+    </section>
+
+    <footer>
+      <span>MADE WITH A LITTLE THOUGHT</span>
+      <span>✿</span>
+      <span>JUST FOR RICARDA</span>
+    </footer>
+  </main>
+
+  <div class="toast" id="toast">A little flower for a lovely beginning ♡</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
